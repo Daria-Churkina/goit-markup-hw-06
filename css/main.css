@@ -453,12 +453,12 @@
   position: absolute;
   top: 50%;
   left: 16px;
-  fill: black;
+  fill: var(--title-text-color);
 
   transform: translateY(-50%);
 }
 
-.form-icon:focus {
+.form-input:focus ~ .form-icon {
   fill: var(--accent-bg-color);
 }
 
