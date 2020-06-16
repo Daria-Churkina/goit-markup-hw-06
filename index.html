@@ -512,17 +512,19 @@
               name="comment"
               id="comment"
               class="form-textarea"
-              placeholder="ваі"
-            >
-            </textarea>
+              placeholder=" "
+            ></textarea>
             <label for="comment" class="textarea-label">Комментарий</label>
           </div>
 
           <div class="form-field policy">
-            <input type="checkbox" name="policy" id="policy" />
-            <label for="policy"
-              >Соглашаюсь с рассылкой и принимаю
-              <a href="">Условия договора</a>
+            <label class="policy">
+              <input class="checkbox" type="checkbox" name="policy" />
+              <span class="checkbox-icon"></span>
+              <span class="checkbox-text"
+                >Соглашаюсь с рассылкой и принимаю</span
+              >
+              <a href="#" class="policy-terms">Условия договора</a>
             </label>
 
             <button type="submit" class="submit-button">Отправить</button>
